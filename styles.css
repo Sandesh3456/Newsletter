@@ -49,7 +49,7 @@ li+li{
     margin-top:10px;
 }
 li{
-    margin-left:30px;
+    margin-left:20px;
 }
 button{
     background-color:hsl(4, 100%, 67%);
@@ -84,6 +84,7 @@ button:hover {
 }
 #return_button:hover {
     background-color: hsl(4, 100%, 67%);
+    box-shadow: 2px 2px 21px hsl(4, 100%, 67%);
 }
 
 input[type=text] {
@@ -147,12 +148,13 @@ input[type=text] {
     float: right;
     margin-right:30px;
     color:hsl(4, 100%, 67%);
+    box-shadow: 2px 2px 21px hsl(4, 100%, 67%);
 }
 span{
     font-weight:bold;
 }  
 #email{
-    color:hsl(4, 100%, 67%);
+    /* color:hsl(4, 100%, 67%); */
     cursor:pointer;
 }
 /* #wrapper{
