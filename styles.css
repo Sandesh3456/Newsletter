@@ -63,6 +63,7 @@ button{
     border-radius:4px;
     width:85%;
     cursor:pointer;
+    /* box-shadow: 2px 2px 21px hsl(4, 100%, 67%); */
 }
 button:hover {
     background-color: hsl(235, 18%, 26%);
@@ -148,7 +149,6 @@ input[type=text] {
     float: right;
     margin-right:30px;
     color:hsl(4, 100%, 67%);
-    box-shadow: 2px 2px 21px hsl(4, 100%, 67%);
 }
 span{
     font-weight:bold;
